@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.Statement;
-public class HelloWorld {
+public class JDBCTest01 {
     public static void main(String[] args) {
         Statement stmt = null;
         Connection conn = null;
